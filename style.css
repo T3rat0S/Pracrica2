@@ -1,0 +1,85 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('images/background.jpg');
+    background-size: cover;
+    color: #003366;
+    margin: 20px;
+}
+
+h1 {
+    color: #ffffff;
+    text-align: center;
+    font-size: 36px;
+}
+
+h2 {
+    color: #004080;
+    font-size: 28px;
+}
+h3 {
+    color: #0066cc;
+}
+
+.header {
+    background: linear-gradient(to right, #0059b3, #3399ff);
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.menu {
+    background-color: rgba(255, 255, 255, 0.85);
+}
+
+ul {
+    list-style-type: square;
+    padding-left: 25px;
+}
+
+li {
+    margin: 12px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #003399;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #cc0000;
+}
+
+.main-image,
+.place-image {
+    width: 80%;
+    max-width: 700px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+input, select, textarea {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #999;
+    border-radius: 8px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    width: auto;
+    background: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background: #004080;
+}
